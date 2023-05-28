@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/Hxa-site/static/css/main.7e84d8f2.css",
-    "main.js": "/Hxa-site/static/js/main.b0afe92a.js",
+    "main.js": "/Hxa-site/static/js/main.275107ee.js",
     "static/js/787.def171b8.chunk.js": "/Hxa-site/static/js/787.def171b8.chunk.js",
     "static/media/buldoexcavatorFata.jpg": "/Hxa-site/static/media/buldoexcavatorFata.a0c1c170775d8bcf01aa.jpg",
     "index.html": "/Hxa-site/index.html",
     "main.7e84d8f2.css.map": "/Hxa-site/static/css/main.7e84d8f2.css.map",
-    "main.b0afe92a.js.map": "/Hxa-site/static/js/main.b0afe92a.js.map",
+    "main.275107ee.js.map": "/Hxa-site/static/js/main.275107ee.js.map",
     "787.def171b8.chunk.js.map": "/Hxa-site/static/js/787.def171b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e84d8f2.css",
-    "static/js/main.b0afe92a.js"
+    "static/js/main.275107ee.js"
   ]
 }
