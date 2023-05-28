@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/react-gh-pages/static/css/main.7e84d8f2.css",
-    "main.js": "/react-gh-pages/static/js/main.7b1dd5a5.js",
-    "static/js/787.def171b8.chunk.js": "/react-gh-pages/static/js/787.def171b8.chunk.js",
-    "static/media/buldoexcavatorFata.jpg": "/react-gh-pages/static/media/buldoexcavatorFata.a0c1c170775d8bcf01aa.jpg",
-    "index.html": "/react-gh-pages/index.html",
-    "main.7e84d8f2.css.map": "/react-gh-pages/static/css/main.7e84d8f2.css.map",
-    "main.7b1dd5a5.js.map": "/react-gh-pages/static/js/main.7b1dd5a5.js.map",
-    "787.def171b8.chunk.js.map": "/react-gh-pages/static/js/787.def171b8.chunk.js.map"
+    "main.css": "/Hxa-site/static/css/main.7e84d8f2.css",
+    "main.js": "/Hxa-site/static/js/main.b0afe92a.js",
+    "static/js/787.def171b8.chunk.js": "/Hxa-site/static/js/787.def171b8.chunk.js",
+    "static/media/buldoexcavatorFata.jpg": "/Hxa-site/static/media/buldoexcavatorFata.a0c1c170775d8bcf01aa.jpg",
+    "index.html": "/Hxa-site/index.html",
+    "main.7e84d8f2.css.map": "/Hxa-site/static/css/main.7e84d8f2.css.map",
+    "main.b0afe92a.js.map": "/Hxa-site/static/js/main.b0afe92a.js.map",
+    "787.def171b8.chunk.js.map": "/Hxa-site/static/js/787.def171b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e84d8f2.css",
-    "static/js/main.7b1dd5a5.js"
+    "static/js/main.b0afe92a.js"
   ]
 }
