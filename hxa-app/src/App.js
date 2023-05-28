@@ -19,16 +19,16 @@ import * as routes from "./routes.js";
 
 function App() {
 
-  const router = createBrowserRouter([
-    {
-      path: "/",
-      element: <HomePage/>,
-      path: "/despreNoi",
-      element: <AboutUsPage/>,
-      path: "/contact",
-      element: <ContactPage/>,
-    },
-  ]);
+  // const router = createBrowserRouter([
+  //   {
+  //     path: "/",
+  //     element: <HomePage/>,
+  //     path: "/despreNoi",
+  //     element: <AboutUsPage/>,
+  //     path: "/contact",
+  //     element: <ContactPage/>,
+  //   },
+  // ]);
 
   return (
     

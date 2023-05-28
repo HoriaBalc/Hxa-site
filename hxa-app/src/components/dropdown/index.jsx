@@ -2,6 +2,9 @@ import { Button, Container, Typography } from '@mui/material';
 import React, { useState } from 'react';
 import './index.css'; 
 import { HiMenu } from "react-icons/hi";
+import * as routes from '../../routes.js';
+
+
 const DropdownButton = () => {
   const [isOpen, setIsOpen] = useState(false);
 
@@ -16,9 +19,9 @@ const DropdownButton = () => {
       </Button>
       {isOpen && (
         <div className="dropdown-content" style={{ display:'flex', flexDirection:'column', background:'#FFD800', position:'relative', width:100, top:90, left:40}}>
-          <Typography component='a' href='/' className='link' sx={{textDecoration:'none', color:'#282c34', padding:1, margin:0}}>Option 1</Typography>
-          <Typography component='a' href='/' className='link' sx={{textDecoration:'none', color:'#282c34', padding:1, margin:0}}>Option </Typography>
-          <Typography component='a' href='/' className='link' sx={{textDecoration:'none', color:'#282c34', padding:1, margin:0}}>Option 3</Typography>
+          <Typography component='a' href={routes.home} className='link' sx={{textDecoration:'none', color:'#282c34', padding:1, margin:0}}>Acasa</Typography>
+          <Typography component='a' href={routes.aboutUs} className='link' sx={{textDecoration:'none', color:'#282c34', padding:1, margin:0}}>Despre Noi </Typography>
+          <Typography component='a' href={routes.contact} className='link' sx={{textDecoration:'none', color:'#282c34', padding:1, margin:0}}>Contact</Typography>
         </div>
       )}
     </Container>

@@ -1,3 +1,3 @@
-export const home = "/";
-export const contact = "/contact";
-export const aboutUs = "/despreNoi";
+export const home = "/Hxa-site";
+export const contact = "/Hxa-site/contact";
+export const aboutUs = "/Hxa-site/despreNoi";

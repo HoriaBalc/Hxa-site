@@ -13,7 +13,7 @@ import Menu from '@mui/material/Menu';
 import {useNavigate} from 'react-router-dom';
 import { height } from '@mui/system';
 import DropdownButton from '../dropdown';
-
+import * as routes from '../../routes.js';
 
 
 
@@ -41,7 +41,7 @@ function ResponsiveAppBar() {
           <Typography
             variant="h6"
             component="a"
-            href="/"
+            href={routes.home}
             sx={{
              
               display: {  md: 'flex' },
@@ -59,7 +59,7 @@ function ResponsiveAppBar() {
                <Button
                 key='acasa'
                 component='a'
-                href='/'
+                href={routes.home}
                 variant='filled'
                 sx={{ my: 0, color: 'inherit', display: 'block', borderRadius: 5 }}
               >
@@ -67,7 +67,7 @@ function ResponsiveAppBar() {
               </Button>
               <Button
                 component='a'
-                href='/despreNoi'
+                href={routes.aboutUs}
                 key='despreNoi'
                 variant='filled'
                 sx={{ my: 0, color: 'inherit', display: 'block', borderRadius: 5 }}
@@ -76,7 +76,7 @@ function ResponsiveAppBar() {
               </Button>
               <Button
                 component='a'
-                href='/contact'
+                href={routes.contact}
                 key='contact'
                 variant='filled'
                 sx={{ my: 0, color: 'inherit', display: 'block', borderRadius: 5 }}
