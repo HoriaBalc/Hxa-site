@@ -1,16 +1,16 @@
 {
   "files": {
-    "main.css": "/static/css/main.7e84d8f2.css",
-    "main.js": "/static/js/main.c0fdb413.js",
-    "static/js/787.def171b8.chunk.js": "/static/js/787.def171b8.chunk.js",
-    "static/media/buldoexcavatorFata.jpg": "/static/media/buldoexcavatorFata.a0c1c170775d8bcf01aa.jpg",
-    "index.html": "/index.html",
-    "main.7e84d8f2.css.map": "/static/css/main.7e84d8f2.css.map",
-    "main.c0fdb413.js.map": "/static/js/main.c0fdb413.js.map",
-    "787.def171b8.chunk.js.map": "/static/js/787.def171b8.chunk.js.map"
+    "main.css": "/react-gh-pages/static/css/main.7e84d8f2.css",
+    "main.js": "/react-gh-pages/static/js/main.7b1dd5a5.js",
+    "static/js/787.def171b8.chunk.js": "/react-gh-pages/static/js/787.def171b8.chunk.js",
+    "static/media/buldoexcavatorFata.jpg": "/react-gh-pages/static/media/buldoexcavatorFata.a0c1c170775d8bcf01aa.jpg",
+    "index.html": "/react-gh-pages/index.html",
+    "main.7e84d8f2.css.map": "/react-gh-pages/static/css/main.7e84d8f2.css.map",
+    "main.7b1dd5a5.js.map": "/react-gh-pages/static/js/main.7b1dd5a5.js.map",
+    "787.def171b8.chunk.js.map": "/react-gh-pages/static/js/787.def171b8.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7e84d8f2.css",
-    "static/js/main.c0fdb413.js"
+    "static/js/main.7b1dd5a5.js"
   ]
 }
