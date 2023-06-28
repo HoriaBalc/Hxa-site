@@ -8,17 +8,17 @@ function HomePage() {
 
   
   return (
-    <div className="App" >
+    <div style={{backgroundColor:'grey'}} >
         <header>
             <ResponsiveAppBar/>
             <DropdownButton/>
         </header>
-        <Container className="App" sx={{top:100, position:'relative'}}>
+        <Container  sx={{top:100, position:'relative', backgroundColor:'grey', padding:'0px 0px 30px 0px'}}>
           <Box>
                       <img alt='utilaj' src={buldoexcavatorImg} width={'100%'} style={{border:1, borderColor:'#282c34', color:'#282c34', borderRadius:5 }}/>
 
           </Box>
-          <Box sx={{border:1, borderColor:'#282c34', backgroundColor:'#FFD800', borderRadius:5, color:'#282c34'}}>
+          {/* <Box sx={{border:1, borderColor:'#282c34', backgroundColor:'#FFD800', borderRadius:5, color:'#282c34'}}>
             
           <Typography variant='h6'  sx={{ textAlign:'start', margin:'0px 15px 0px 15px', padding:0}} >
               <strong>Ce facem noi?</strong>                </Typography>
@@ -32,7 +32,7 @@ function HomePage() {
                  Raza de activitate a firmei este in aria judetului Cluj si in aproprierea acestuia.
               </Typography> 
 
-          </Box>
+          </Box> */}
         
         </Container>
     </div>

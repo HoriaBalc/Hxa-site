@@ -36,13 +36,16 @@ function App() {
         {/* <ResponsiveAppBar/> */}
         {/* <RouterProvider router={router} /> */}
 
-        <Router>
+        {/* <Router>
           <Routes>
              <Route  path={routes.aboutUs} exact element={<AboutUsPage />} />
              <Route  path={routes.home} exact element={<HomePage />} />
              <Route  path={routes.contact} exact element={<ContactPage />} />
           </Routes>
-        </Router>
+        </Router> */}
+        <HomePage/>
+        <AboutUsPage/>
+        <ContactPage/>
       </React.StrictMode>
       
   );

@@ -14,7 +14,7 @@ import {useNavigate} from 'react-router-dom';
 import { height } from '@mui/system';
 import DropdownButton from '../dropdown';
 import * as routes from '../../routes.js';
-
+import logo from "../../images/logo.png"
 
 
 function ResponsiveAppBar() {
@@ -52,7 +52,8 @@ function ResponsiveAppBar() {
 
             }}
           >
-            LOGO
+            <img alt='utilaj' src={logo} width={'100%'} style={{height:75, border:1, borderColor:'#282c34', color:'#282c34', borderRadius:5 }}/>
+
           </Typography>
 
           <Box sx={{ flexGrow: 1, display: { xs: 'none', md: 'flex',} }}>
